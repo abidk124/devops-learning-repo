@@ -1,16 +1,5 @@
 # DevOps Learning Journey
-
-Your personal repository for tracking progress through the CoderCo DevOps curriculum.
-
-## Quick Start
-
-1. Click **"Use this template"** then **"Create a new repository"**
-2. Clone your new repo locally
-3. Start learning and commit your progress
-
-![UseTemplate](./images/UseTemplate.png)
-
-![CreateRepo](./images/Createrepo.png)
+Focus Practice OS Script VCS Networking Containers Cloud IaC CI/CD Orchestration
 
 ## Repository Structure
 
