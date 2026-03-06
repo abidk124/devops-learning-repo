@@ -1,102 +1,58 @@
-# DevOps Learning Journey
-Focus Practice OS Script VCS Networking Containers Cloud IaC CI/CD Orchestration
+# DevOps Learning Journey 🚀
+![Focus](https://img.shields.io/badge/Focus-DevOps%20Foundations-purple)
+![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
+![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
+![Script](https://img.shields.io/badge/Script-Bash-blue?logo=gnubash)
+![VCS](https://img.shields.io/badge/VCS-Git-F05032?logo=git&logoColor=white)
+![Networking](https://img.shields.io/badge/Networking-Computer%20Networks-607D8B?logo=cloudflare&logoColor=white)
+![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?logo=docker&logoColor=white)
+![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
+![IaC](https://img.shields.io/badge/IaC-Terraform-7B42BC?logo=terraform&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-Automation-2088FF?logo=githubactions&logoColor=white)
+![Orchestration](https://img.shields.io/badge/Orchestration-Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 
-## Repository Structure
+Documenting my journey into DevOps, Linux, automation, and cloud technologies.
 
-```
-devops-learning/
-├── 01-linux/           # Linux Fundamentals
-├── 02-bash/            # Bash Scripting
-├── 03-git/             # Version Control
-├── 04-networking/      # How the Internet Works
-├── 05-docker/          # Containers
-├── 06-aws/             # Cloud (AWS)
-├── 07-terraform/       # Infrastructure as Code
-├── 08-cicd/            # CI/CD Pipelines
-├── 09-kubernetes/      # Container Orchestration
-└── challenges/         # Extra Challenges
-```
+This repository contains notes, labs, scripts, and resources that I use while learning DevOps. The goal is to build real-world skills while creating a resource others can learn from.
 
-Each module contains:
-- **notes/** – Your personal notes and summaries
-- **labs/** – Completed lab exercises
-- **projects/** – Hands-on projects
+This content follows my training with [CoderCo](https://coderco.io) which includes:
 
-## Progress Tracker
+- [Linux fundamentals](./01-linux)
+- [Bash scripting](./02-bash)
+- [Git course](./03-git)
+- [Networking](./04-networking)
+- [Containers and Dockers](./05-docker)
+- [AWS like a pro](./06-aws)
+- [Terraform](./07-terraform)
+- [CI/CD pipelines](./08-cicd)
+- [Kubernetes](./09-kubernetes)
 
-| Module | Status | Notes | Labs | Projects |
-|--------|--------|-------|------|----------|
-| 01 - Linux | Not Started | 0/0 | 0/0 | 0/0 |
-| 02 - Bash | Not Started | 0/0 | 0/0 | 0/0 |
-| 03 - Git | Not Started | 0/0 | 0/0 | 0/0 |
-| 04 - Networking | Not Started | 0/0 | 0/0 | 0/0 |
-| 05 - Docker | Not Started | 0/0 | 0/0 | 0/0 |
-| 06 - AWS | Not Started | 0/0 | 0/0 | 0/0 |
-| 07 - Terraform | Not Started | 0/0 | 0/0 | 0/0 |
-| 08 - CI/CD | Not Started | 0/0 | 0/0 | 0/0 |
-| 09 - Kubernetes | Not Started | 0/0 | 0/0 | 0/0 |
-
-Update this table as you progress.
-
-## How to Use This Repo
-
-### Taking Notes
-
-After each lesson, create a note:
-
-```bash
-touch 01-linux/notes/file-permissions.md
-```
-
-Write in your own words – this helps you remember.
-
-### Completing Labs
-
-Document what you did and what you learned:
-
-```bash
-touch 01-linux/labs/lab01-basic-commands.md
-```
-
-Include commands, outputs, and any errors you hit.
-
-### Building Projects
-
-Create a folder with your code and a README:
-
-```
-01-linux/projects/backup-script/
-├── backup.sh
-└── README.md
-```
-
-## Best Practices
-
-**Commit often** – After each lesson, lab, or meaningful progress.
-
-**Write good commit messages:**
-
-```bash
-# Bad
-git commit -m "updates"
-
-# Good
-git commit -m "Add notes on Linux file permissions"
-```
-
-**Stay organised** – Put files in the right folders.
-
-**Share your progress** – Post on LinkedIn, tag @CoderCo!
-
-## Useful Links
-
-- [CoderCo Community](https://www.skool.com/coderco)
-- [CoderCo Dotfiles](https://github.com/coderco-learning/dotfiles)
-
-## License
-
-MIT – Use this template however you like.
 
 ---
 
-Questions? Ask in the CoderCo community.
+
+## 🧠 Topics Covered so far
+
+Linux fundamentals
+- Environment Variables
+- Text Processing (`grep`, `awk`, `sed`)
+- File permissions
+- Process management
+- Networking basics
+
+---
+
+## 🎯 Goal
+
+To become a **DevOps Engineer** by mastering automation, infrastructure, and cloud systems.
+
+---
+
+## 🤝 Contributing
+
+If you're also learning DevOps, feel free to fork the repo and follow along.
+
+---
+
+
+
