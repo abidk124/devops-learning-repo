@@ -1,0 +1,40 @@
+Essentials commands to remember!  
+ 
+A bit of context before starting Linux:  
+Before understanding commands in Linux, you need to understand what a terminal is – which is essentially a command line interface that interacts with the OS (Operating System) which you can navigate your file system, install & configure software and many more.  
+ 
+Command on its own cannot be understood by the OS – so instead it is interpreted by shell (will be covered later).  
+ 
+What are (Linux) commands?  
+Textual instruction that tells the OS what to do  
+Have various options & arguments that can modify their behaviour  
+Case sensitive ( ls & Ls could be two different things)  
+Every command has their own instruction manual ( with the "man" command e.g. man ls – shows all the information you need about ls)  
+ 
+Example : $ commands options arguments  
+                         ls – a . Desktop  
+ 
+Command 1: ls  
+Lists the contents of the current directory (think of it as a folder) you are in  
+Example : Desktop Documents Downloads  
+Command 2: pwd  
+Prints the current working directory  
+Example: /home/abidkhan  
+Command 3: cd  
+Essentially changes the directory from your working one  
+Example: You are in /home/abidkhan and have desktop in your current directory, command line "cd Desktop" will change it and "ls" will list what you have in your desktop  
+(extension) cd .. - means changing directory to the previous one e.g. /home to / which is root directory  
+Command 4: mkdir  
+Makes a new directory  
+Example: mkdir games – a folder called games in your desktop  
+Command 5: rmdir  
+Remove a empty current directory  
+e.g. rmdir games  
+Command 6: touch  
+To create a file in the directory  
+e.g. touch hello.txt  
+Command 7: sudo  
+Bypasses the permission to access the files which requests personal details from the user  
+Extra info:  
+Hidden directories start with a  "."  
+To make a hidden directory e.g. mkdir .linux , if permission denied then add the sudo command and to check if it was made use the command along with the option "ls - a"
