@@ -1,85 +1,69 @@
-# Essential Linux Commands
+Essentials commands to remember! 
 
-Linux is a powerful operating system and knowing the essential commands can help you navigate and utilize it efficiently. Below is a list of key commands with descriptions and examples.
+A bit of context before starting Linux: 
 
-## File and Directory Management
+Before understanding commands in Linux, you need to understand what a terminal is – which is essentially a command line interface that interacts with the OS (Operating System) which you can navigate your file system, install & configure software and many more.  
 
-1. **`ls`**: List directory contents.
-   - Example: `ls -l` (list in long format)
+Command on its own cannot be understood by the OS – so instead it is interpreted by shell (will be covered later).  
 
-2. **`cd`**: Change directory.
-   - Example: `cd /path/to/directory`
+What are (Linux) commands? 
 
-3. **`mkdir`**: Create a new directory.
-   - Example: `mkdir new_directory`
+Textual instruction that tells the OS what to do  
 
-4. **`rm`**: Remove files or directories.
-   - Example: `rm file.txt` (remove a file)
-   - Example: `rm -r directory_name` (remove a directory and its contents)
+Have various options & arguments that can modify their behaviour  
 
-5. **`cp`**: Copy files or directories.
-   - Example: `cp source.txt destination.txt`
-   - Example: `cp -r source_directory/ destination_directory/`
+Case sensitive ( ls & Ls could be two different things) 
 
-6. **`mv`**: Move or rename files or directories.
-   - Example: `mv old_name.txt new_name.txt`
+Every command has their own instruction manual ( with the "man" command e.g. man ls – shows all the information you need about ls)  
 
-## Viewing and Editing Files
+Example : $ commands options arguments 
 
-1. **`cat`**: Concatenate and display file contents.
-   - Example: `cat file.txt`
+                         ls – a . Desktop 
 
-2. **`less`**: View file contents one screen at a time.
-   - Example: `less file.txt`
+Command 1: ls 
 
-3. **`nano`**: Simple text editor.
-   - Example: `nano file.txt`
+Lists the contents of the current directory (think of it as a folder) you are in  
 
-## System Information
+Example : Desktop Documents Downloads 
 
-1. **`top`**: Display active processes.
+Command 2: pwd  
 
-2. **`df`**: Show disk space usage.
-   - Example: `df -h` (human-readable format)
+Prints the current working directory  
 
-3. **`free`**: Display memory usage.
-   - Example: `free -m` (in megabytes)
+Example: /home/abidkhan 
 
-## User Management
+Command 3: cd 
 
-1. **`whoami`**: Display the current user.
+Essentially changes the directory from your working one 
 
-2. **`adduser`**: Add a new user.
-   - Example: `sudo adduser new_username`
+Example: You are in /home/abidkhan and have desktop in your current directory, command line "cd Desktop" will change it and "ls" will list what you have in your desktop 
 
-3. **`passwd`**: Change user password.
-   - Example: `sudo passwd username`
+(extension) cd .. - means changing directory to the previous one e.g. /home to / which is root directory 
 
-## Networking
+Command 4: mkdir 
 
-1. **`ping`**: Check connectivity to a host.
-   - Example: `ping www.example.com`
+Makes a new directory 
 
-2. **`ifconfig`**: Display network configurations (not available on all distros, use `ip a` instead).
+Example: mkdir games – a folder called games in your desktop 
 
-3. **`wget`**: Download files from the web.
-   - Example: `wget http://example.com/file`
+Command 5: rmdir 
 
-## Package Management (Debian-based Distros)
+Remove a empty current directory  
+ 
+e.g. rmdir games 
 
-1. **`apt-get`**: Package management command.
-   - Example: `sudo apt-get update` (update package list)
-   - Example: `sudo apt-get install package_name` (install a package)
+Command 6: touch  
 
-## Bash Commands
+To create a file in the directory  
 
-1. **`echo`**: Display a line of text.
-   - Example: `echo "Hello, World!"`
+Example: touch hello.txt 
 
-2. **`history`**: Display command history.
+Command 7: sudo 
 
-3. **`clear`**: Clear the terminal screen.
+Bypasses the permission to access the files which requests personal details from the user 
 
-## Conclusion
+Extra info: 
 
-Knowing these essential commands provides a foundation for further exploration of Linux. Each command has numerous options and functionalities, so refer to the man pages (e.g., `man ls`) for comprehensive information.
+Hidden directories start with a  "."  
+
+To make a hidden directory e.g. mkdir .linux , if permission denied then add the sudo command and to check if it was made use the command along with the option "ls - a"
